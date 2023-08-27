@@ -1,0 +1,14 @@
+* {
+    margin : 0px;
+    font-family: 'McLaren', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

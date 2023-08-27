@@ -1,0 +1,9 @@
+.message-input {
+    flex : 1;
+    outline-width: 0px;
+    border : none;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+}
+

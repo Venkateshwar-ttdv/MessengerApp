@@ -1,0 +1,106 @@
+.roomAndUsersColumn {
+    flex : 0.3;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-room {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.btn-room {
+    background-color: white;
+    color: #4477CE;
+    outline: none;
+    border : 2px solid #4477CE;
+    height : 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.room-title ,.user-title{
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.4);
+    background-color: white;
+    padding: 10px 5px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.user-title {
+    font-size: 1rem;
+}
+
+.user-list {
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.4);
+    background-color: white;
+    padding: 10px 5px;
+    margin: 5px;
+    border-radius: 10px;
+    flex : 1;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.user-list::-webkit-scrollbar {
+    display: none;
+}
+
+.room-element {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    transition: 0.3s;
+    min-width: 200px;
+}
+
+.room-element:hover ,.room-title:hover ,.user-title:hover ,.btn-room:hover{
+    border : none;
+    background-color: #5d80de;
+    color: white;
+}
+
+.first {
+    margin-top: 11px;
+    height: 32px;
+    width: 32px;
+    padding: 4px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #4477CE;
+    color : white;
+}
+
+.btn {
+    color : #5d80de;
+}
+.second {
+    font-weight: bold;
+}
+
+@media screen and (max-width : 700px) {
+    .roomAndUsersColumn {
+        display: none;
+    }
+
+    .active-menu {
+        display: flex;
+    }
+}

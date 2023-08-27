@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Montserrat&display=swap');
+
+* {
+    margin : 0px;
+    padding : 0px;
+    font-family: 'McLaren', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.chatContainer {
+   width : 90vw;
+   height: 90vh;
+   display: flex;
+   border-radius: 10px;
+   box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.4);
+   min-width: 1020px;
+}
+
+.active {
+    display: none;
+}
+
+@media screen and (max-width : 700px) {
+    .chatContainer {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        box-shadow: none;
+        min-width: 0;
+    }
+
+    .active {
+        display: flex;
+    } 
+}
+
